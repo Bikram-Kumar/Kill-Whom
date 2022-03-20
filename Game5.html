@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Kill ghosts and zombies to survive. Shoot 'em Up!" />
+  <title>Kill Whom?</title>
+  <link rel="stylesheet" href="stylesheets/canvas-arrangement.css" type="text/css" media="all" />
+</head>
+<body>
+  <div id="gameArea">
+
+    <div id="canvasArea">
+      <canvas id="cnvs" width="480px" height="320px">Sorry! Canvas is not supported in your browser!</canvas>
+      <div id="score-bar">
+      IP: 0
+      </div>
+    
+    </div>
+  </div>
+  
+ 
+  <button id="fsBtn" onclick="requestFullScreen()">Go Fullscreen</button>
+ 
+
+  <script type="module" src="scripts/mechanics.js" type="text/javascript" charset="utf-8"></script>
+  <script type="module" src="scripts/ui.js" type="text/javascript" charset="utf-8"></script>
+  <script type="module" src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
